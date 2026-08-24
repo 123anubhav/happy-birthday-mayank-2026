@@ -73,7 +73,7 @@ function checkAllBlown() {
     if (all.every(c => c.dataset.lit === 'false')) {
         const sc = document.getElementById('cakeScene');
         sc.classList.remove('cake-burst'); void sc.offsetWidth; sc.classList.add('cake-burst');
-        triggerConfetti(); showToast('🎂 Wish made! Happy Birthday Abhishek! 🎉');
+        triggerConfetti(); showToast('🎂 Wish made! Happy Birthday Mayank! 🎉');
         const btn = document.getElementById('blowBtn');
         btn.style.background = 'linear-gradient(135deg,#FFD700,#FF9500,#FF5722)'; btn.style.animation = 'none';
         document.getElementById('blowBtnLabel').textContent = 'Relight All Candles 🕯️';
